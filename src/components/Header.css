@@ -38,26 +38,47 @@
     font-weight: bold;
     color: #333;
 }
+/* Navigation Section */
+.header-nav {
+    display: flex; /* Ensure nav items are in a single line */
+    align-items: center; /* Vertically center nav items */
+}
 
-/* Navigation */
-.header-nav .nav-list {
-    display: flex;
-    list-style: none;
-    gap: 20px;
+.nav-list {
+    display: flex; /* Align nav items horizontally */
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    gap: 20px; /* Space between items */
 }
 
 .nav-item {
-    position: relative;
-    cursor: pointer;
     font-size: 16px;
     color: #333;
     text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s; /* Smooth hover effect */
 }
 
-.nav-item span {
-    margin-left: 5px;
-    font-size: 12px;
+.nav-item:hover {
+    color: #007bff; /* Change color on hover */
 }
+
+
+/* Hover Effect */
+.nav-item:hover {
+    color: #007bff; /* Change text color on hover */
+}
+
+/* Responsive Design - Mobile View */
+@media (max-width: 768px) {
+    .header-nav .nav-list {
+        flex-direction: column; /* Stack items vertically */
+        gap: 10px; /* Adjust spacing for mobile view */
+    }
+}
+
+
 
 /* Header Right Icons */
 .header-right {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css'; // Import the CSS file with the background styling
+import './Header.css'; // Import the CSS file with the styles
 
 const Header = () => {
     const scrollToSection = (sectionId) => {
@@ -15,11 +15,11 @@ const Header = () => {
             <div className="top-half-background">
                 <div className="header-left">
                     <img
-                        src="/images/penang-logo.png" // Update logo for Penang
+                        src="/images/penang-logo.png"
                         alt="Penang Logo"
                         className="logo"
                     />
-                    <span className="website-name">MyPenang</span> {/* Added website name */}
+                    <span className="website-name">MyPenang</span>
                 </div>
             </div>
 
@@ -28,35 +28,25 @@ const Header = () => {
                 {/* Left Section: Logo */}
                 <div className="header-left">
                     <img
-                        src="/images/penang-logo.png" // Update logo for Penang
+                        src="/images/penang-logo.png"
                         alt="Penang Logo"
                         className="logo"
                     />
-                    <span className="website-name">MyPenang</span> {/* Added website name */}
+                    <span className="website-name">MyPenang</span>
                 </div>
 
                 {/* Center Section: Navigation */}
                 <nav className="header-nav">
                     <ul className="nav-list">
-                        <li className="nav-item" onClick={() => scrollToSection('AboutPenang')}>
-                            About Penang <span>▼</span>
-                        </li>
-                        <li className="nav-item" onClick={() => scrollToSection('Places')}>
-                            Attractions <span>▼</span>
-                        </li>
-                        <li className="nav-item" onClick={() => scrollToSection('Food')}>
-                            Local Food <span>▼</span>
-                        </li>
-                        <li className="nav-item" onClick={() => scrollToSection('Transportation')}>
-                            Transportation <span>▼</span>
-                        </li>
-                        <li className="nav-item" onClick={() => scrollToSection('Accomodation')}>
-                            Accomodation <span>▼</span>
-                        </li>
+                        <li className="nav-item" onClick={() => scrollToSection('AboutPenang')}>About Penang</li>
+                         <li className="nav-item" onClick={() => scrollToSection('Places')}>Attractions</li>
+                         <li className="nav-item" onClick={() => scrollToSection('Food')}>Local Food</li>
+                         <li className="nav-item" onClick={() => scrollToSection('Transportation')}>Transportation</li>
+                         <li className="nav-item" onClick={() => scrollToSection('Accomodation')}>Accommodation</li>
                     </ul>
                 </nav>
 
-                {/* Right Section: Font Awesome Icons */}
+                {/* Right Section: Icons */}
                 <div className="header-right">
                     <i className="fas fa-globe" title="Language"></i>
                     <i className="fas fa-heart" title="Favorites"></i>

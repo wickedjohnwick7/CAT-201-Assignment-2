@@ -14,8 +14,11 @@ function App() {
             case "home":
                 return (
                     <>
+                    <section id="AboutPenang"></section>
                         <AboutPenang  onLearnMore={() => setCurrentPage('penangPage')}/>
                         {/* Image-based Navigation with Pages */}
+                    <section id="Places"></section>
+                        <h1>Must-visit Places in Penang</h1>
                         <div className="image-navigation">
                             <img
                                 src="/images/Beaches.png"
@@ -42,7 +45,8 @@ function App() {
                                 onClick={() => setCurrentPage("nature-adventure")}
                             />
                         </div>
-                        
+                    <section id="Food"></section>
+
                         <h2>Food to Savor</h2>
                         <div className="places-navigation">
                             <img
@@ -73,6 +77,7 @@ function App() {
                                 onClick={() => setCurrentPage("street-food")}
                             />
                         </div>
+                    <section id="Transportation"></section>
 
                         <h3>Transportation</h3>
                         <div className="places-navigation">
@@ -110,8 +115,9 @@ function App() {
                                 onClick={() => setCurrentPage("bike")}
                             />
                         </div>
+                     <section id="Accomodation"></section>
 
-                        <h4>Accommodationtion</h4>
+                        <h4>Acommodation</h4>
                         <div className="places-navigation">
                             <img
                                 src="/images/Hotel.png"

@@ -10,12 +10,12 @@ import FoodieEvents from "./foods/FoodieEvents";
 import FlightInformation from "./transportation/FlightInformation";
 import Bus from "./transportation/Bus";
 import Ferry from "./transportation/Ferry";
-import KTM from "./transportation/KTM"; 
+import KTM from "./transportation/KTM";
 import Bike from "./transportation/Bike";
 import Hotel from "./accommodation/Hotel";
 import Homestay from "./accommodation/Homestay";
 import Resort from "./accommodation/Resort";
-  
+
 function NavigationRouter({ currentPage, setPage }) {
   switch (currentPage) {
     case "beaches-islands":
@@ -55,4 +55,4 @@ function NavigationRouter({ currentPage, setPage }) {
   }
 }
 
-export default NavigationRouter; 
+export default NavigationRouter;

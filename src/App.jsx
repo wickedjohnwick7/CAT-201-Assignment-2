@@ -14,10 +14,10 @@ function App() {
             case "home":
                 return (
                     <>
-                    <section id="AboutPenang"></section>
+                        <section id="AboutPenang"></section>
                         <AboutPenang  onLearnMore={() => setCurrentPage('penangPage')}/>
                         {/* Image-based Navigation with Pages */}
-                    <section id="Places"></section>
+                        <section id="Places"></section>
                         <h1>Must-visit Places in Penang</h1>
                         <div className="image-navigation">
                             <img
@@ -45,23 +45,23 @@ function App() {
                                 onClick={() => setCurrentPage("nature-adventure")}
                             />
                         </div>
-                    <section id="Food"></section>
+                        <section id="Food"></section>
 
                         <h2>Food to Savor</h2>
-                        <div className="places-navigation">
+                        <div className="image-navigation">
                             <img
                                 src="/images/Desserts.png"
                                 alt="Desserts"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("desserts")}
                             />
-        
+
                             <img
-                                    src="/images/MustTry.png"
-                                    alt="Must-try food"
-                                    className="nav-image"
-                                    onClick={() => setCurrentPage("must-try-dishes")}
-                                />
+                                src="/images/MustTry.png"
+                                alt="Must-try food"
+                                className="nav-image"
+                                onClick={() => setCurrentPage("must-try-dishes")}
+                            />
 
                             <img
                                 src="/images/Foodie.png"
@@ -77,10 +77,10 @@ function App() {
                                 onClick={() => setCurrentPage("street-food")}
                             />
                         </div>
-                    <section id="Transportation"></section>
+                        <section id="Transportation"></section>
 
                         <h3>Transportation</h3>
-                        <div className="places-navigation">
+                        <div className="image-navigation">
                             <img
                                 src="/images/Ferry.png"
                                 alt="Ferry"
@@ -89,11 +89,11 @@ function App() {
                             />
 
                             <img
-                                    src="/images/Flight.png"
-                                    alt="Flight"
-                                    className="nav-image"
-                                    onClick={() => setCurrentPage("flight-information")}
-                                />
+                                src="/images/Flight.png"
+                                alt="Flight"
+                                className="nav-image"
+                                onClick={() => setCurrentPage("flight-information")}
+                            />
 
                             <img
                                 src="/images/Bus.png"
@@ -115,10 +115,10 @@ function App() {
                                 onClick={() => setCurrentPage("bike")}
                             />
                         </div>
-                     <section id="Accomodation"></section>
+                        <section id="Accomodation"></section>
 
                         <h4>Acommodation</h4>
-                        <div className="places-navigation">
+                        <div className="image-navigation">
                             <img
                                 src="/images/Hotel.png"
                                 alt="Hotel"
@@ -127,21 +127,21 @@ function App() {
                             />
 
                             <img
-                                    src="/images/Homestay.png"
-                                    alt="Homestay"
-                                    className="nav-image"
-                                    onClick={() => setCurrentPage("homestay")}
-                                />
+                                src="/images/Homestay.png"
+                                alt="Homestay"
+                                className="nav-image"
+                                onClick={() => setCurrentPage("homestay")}
+                            />
 
                             <img
                                 src="/images/Resort.png"
                                 alt="Resort"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("resort")}
-                            />                  
+                            />
                         </div>
 
-                        
+
                     </>
                 );
             case "penangPage":

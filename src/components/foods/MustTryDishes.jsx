@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-
+import "./foods.css";
 function MustTryDishes({ setPage }) {
   return (
     <div className="App">

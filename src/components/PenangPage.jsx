@@ -6,9 +6,9 @@ const PenangPage = () => {
         <section id="penangPage" className="penang-page-section">
             {/* Header Image */}
             <div className="penang-page-header">
-                <img 
-                    src="/images/penang-bridge.jpg" 
-                    className="penang-header-image" 
+                <img
+                    src="/images/penang-bridge.jpg"
+                    className="penang-header-image"
                     alt="Penang Bridge"
                 />
             </div>
@@ -29,18 +29,18 @@ const PenangPage = () => {
             {/* Description */}
             <div className="penang-description-container">
                 <p className="penang-description">
-                    Penang is a beautiful destination with rich culture, stunning beaches, and delicious food. 
-                    Whether you are looking to explore historical landmarks, indulge in local delicacies, 
-                    or simply relax by the beach, Penang has something for everyone. 
+                    Penang is a beautiful destination with rich culture, stunning beaches, and delicious food.
+                    Whether you are looking to explore historical landmarks, indulge in local delicacies,
+                    or simply relax by the beach, Penang has something for everyone.
                     Discover the best places to visit and experience the charm of this amazing destination.
                 </p>
             </div>
 
             {/* Additional Image */}
             <div className="penang-page-image-container">
-                <img 
+                <img
                     src="/images/penang-map.png"  // Replace with another image
-                    className="penang-page-image" 
+                    className="penang-page-image"
                     alt="Penang Map"
                 />
             </div>

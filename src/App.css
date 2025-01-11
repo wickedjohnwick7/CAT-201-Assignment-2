@@ -1,4 +1,9 @@
-
+/* General Styles */
+.App {
+  font-family: Arial, sans-serif; /* Consistent font for the app */
+  text-align: center;
+  margin: 20px;
+}
 
 /* Carousel Styles */
 .carousel {
@@ -7,34 +12,15 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  width: 100%; /* Full width */
+  width: 100%;
   margin: 20px 0; /* Space around the carousel */
 }
-.nav-list {
-  display: flex; /* Align list items horizontally */
-  justify-content: space-around; /* Space evenly between items */
-  align-items: center; /* Vertically center items */
-  list-style-type: none; /* Remove bullet points */
-  padding: 0;
-  margin: 0;
-  gap: 20px; /* Space between items */
-}
 
-.nav-item {
-  font-size: 16px; /* Adjust font size */
-  font-family: Arial, sans-serif; /* Font styling */
-  color: #333; /* Default text color */
-  cursor: pointer; /* Pointer on hover */
-  text-decoration: none; /* Remove underline */
-  padding: 5px 10px; /* Add some padding */
-  border-radius: 5px; /* Optional rounded corners */
-  transition: background-color 0.3s, color 0.3s; /* Smooth hover effects */
-}
 .carousel-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent button */
   color: #daade4;
   border: none;
   padding: 10px 20px;
@@ -43,6 +29,11 @@
   z-index: 100;
   border-radius: 50%;
   outline: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Darker hover effect */
 }
 
 .carousel-button.left {
@@ -53,55 +44,112 @@
   right: 10px;
 }
 
-.nav-image {
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+/* Navigation Styles */
+.nav-list {
+  display: flex; /* Align list items horizontally */
+  justify-content: center; /* Center align the list */
+  align-items: center;
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+  gap: 20px; /* Add space between items */
 }
 
-.nav-title {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 16px;
+.nav-item {
+  font-size: 18px; /* Larger font size */
+  font-family: Arial, sans-serif;
   color: #333;
-  font-weight: bold;
+  cursor: pointer; /* Pointer on hover */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Add padding for clickable area */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth hover effects */
 }
 
-.nav-image:hover {
-  transform: scale(1.1); /* Hover effect remains */
+.nav-item:hover {
+  background-color: #f0f0f0; /* Light background on hover */
+  color: #007BFF; /* Accent color on hover */
 }
 
+/* Image Navigation */
 .image-navigation {
   display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin: 20px 0;
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
+  justify-content: center; /* Center-align images */
+  gap: 30px; /* Increased spacing between images */
+  margin: 40px 0; /* Larger margin above and below the navigation */
 }
 
 .nav-image {
-  width: 180px;
-  height: 120px;
-  border-radius: 8px;
+  width: 300px; /* Larger image size */
+  height: 200px;
+  border-radius: 12px; /* Slightly more rounded corners */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Slightly stronger shadow */
   cursor: pointer;
-  transition: transform 0.3s;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .nav-image:hover {
-  transform: scale(1.05);
+  transform: scale(1.1); /* Enlarge image on hover */
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.25); /* Enhanced shadow on hover */
 }
 
-/* General styles */
-.App {
+
+/* Section Titles */
+h1, h2, h3, h4 {
   font-family: Arial, sans-serif;
+  font-weight: bold;
   text-align: center;
-  margin: 20px;
+  margin-bottom: 20px;
+  color: #333; /* Standard text color */
 }
 
+h1 {
+  font-size: 36px; /* Largest title size */
+  color: #0047ab; /* Distinct color for main headings */
+}
 
-  .foo-right {
-    width: 100%;
-    grid-template-columns: 1fr;
-  }
+h2 {
+  font-size: 36px; /* Second-largest */
+  color: #007BFF; /* Accent color */
+}
+
+h3 {
+  font-size: 36px;
+  color: #28a745;
+}
+
+h4 {
+  font-size: 36px;
+  color: #6c757d;
+}
+
+/* Section Spacing */
+section {
+  margin: 50px 0; /* Space between sections */
+  padding: 20px; /* Inner padding */
+  background-color: #f9f9f9; /* Light background for readability */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Section-Specific Background Colors */
+#AboutPenang {
+  background-color: #e3f2fd; /* Light blue */
+}
+
+#Places {
+  background-color: #e8f5e9; /* Light green */
+}
+
+#Food {
+  background-color: #fff3e0; /* Light orange */
+}
+
+#Transportation {
+  background-color: #f3e5f5; /* Light purple */
+}
+
+#Accomodation {
+  background-color: #e1f5fe; /* Light cyan */
 }

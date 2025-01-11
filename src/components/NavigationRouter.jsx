@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PenangPage from "./PenangPage";
 import BeachesIslands from "./places/BeachesIslands";
 import HeritageHistory from "./places/HeritageHistory";
 import CultureTradition from "./places/CultureTradition";
@@ -18,6 +19,8 @@ import Resort from "./accommodation/Resort";
 
 function NavigationRouter({ currentPage, setPage }) {
   switch (currentPage) {
+    case "penang-page":
+      return <PenangPage onBack={() => setPage("home")} />;
     case "beaches-islands":
       return <BeachesIslands setPage={setPage} />;
     case "heritage-history":

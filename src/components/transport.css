@@ -1,0 +1,49 @@
+.page-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.page-title {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.page-description {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.nav-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+}
+
+.page-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

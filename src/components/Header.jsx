@@ -37,12 +37,12 @@ const Header = () => {
 
                 {/* Center Section: Navigation */}
                 <nav className="header-nav">
-                    <ul className="nav-list">
-                        <li className="nav-item" onClick={() => scrollToSection('AboutPenang')}>About Penang</li>
-                         <li className="nav-item" onClick={() => scrollToSection('Places')}>Attractions</li>
-                         <li className="nav-item" onClick={() => scrollToSection('Food')}>Local Food</li>
-                         <li className="nav-item" onClick={() => scrollToSection('Transportation')}>Transportation</li>
-                         <li className="nav-item" onClick={() => scrollToSection('Accomodation')}>Accommodation</li>
+                    <ul className="nav-lists">
+                        <li className="nav-items" onClick={() => scrollToSection('AboutPenang')}>About Penang</li>
+                         <li className="nav-items" onClick={() => scrollToSection('Places')}>Attractions</li>
+                         <li className="nav-items" onClick={() => scrollToSection('Food')}>Local Food</li>
+                         <li className="nav-items" onClick={() => scrollToSection('Transportation')}>Transportation</li>
+                         <li className="nav-items" onClick={() => scrollToSection('Accomodation')}>Accommodation</li>
                     </ul>
                 </nav>
 
@@ -56,5 +56,4 @@ const Header = () => {
         </div>
     );
 };
-
 export default Header;

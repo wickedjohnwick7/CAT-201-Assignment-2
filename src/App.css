@@ -10,20 +10,26 @@
   width: 100%; /* Full width */
   margin: 20px 0; /* Space around the carousel */
 }
-
 .nav-list {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-  list-style-type: none;
+  display: flex; /* Align list items horizontally */
+  justify-content: space-around; /* Space evenly between items */
+  align-items: center; /* Vertically center items */
+  list-style-type: none; /* Remove bullet points */
   padding: 0;
   margin: 0;
+  gap: 20px; /* Space between items */
 }
 
 .nav-item {
-  flex: 0 0 auto; /* Items will not stretch but keep their size */
-  text-align: center;
+  font-size: 16px; /* Adjust font size */
+  font-family: Arial, sans-serif; /* Font styling */
+  color: #333; /* Default text color */
+  cursor: pointer; /* Pointer on hover */
+  text-decoration: none; /* Remove underline */
+  padding: 5px 10px; /* Add some padding */
+  border-radius: 5px; /* Optional rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth hover effects */
 }
-
 .carousel-button {
   position: absolute;
   top: 50%;

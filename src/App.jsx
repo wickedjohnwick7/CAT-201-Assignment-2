@@ -18,25 +18,25 @@ function App() {
                         {/* Image-based Navigation with Pages */}
                         <div className="image-navigation">
                             <img
-                                src="/images/Beaches.jpg"
+                                src="/images/Beaches.png"
                                 alt="Beaches and Islands"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("beaches-islands")}
                             />
                             <img
-                                src="/images/Heritage.jpg"
+                                src="/images/Heritage.png"
                                 alt="Heritage and History"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("heritage-history")}
                             />
                             <img
-                                src="/images/Culture.jpg"
+                                src="/images/Culture.png"
                                 alt="Culture and Tradition"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("culture-tradition")}
                             />
                             <img
-                                src="/images/Nature.jpg"
+                                src="/images/Nature.png"
                                 alt="Nature and Adventure"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("nature-adventure")}
@@ -46,28 +46,28 @@ function App() {
                         <h2>Food to Savor</h2>
                         <div className="places-navigation">
                             <img
-                                src="/images/Desserts.jpg"
+                                src="/images/Desserts.png"
                                 alt="Desserts"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("desserts")}
                             />
         
                             <img
-                                    src="/images/MustTry.jpg"
+                                    src="/images/MustTry.png"
                                     alt="Must-try food"
                                     className="nav-image"
                                     onClick={() => setCurrentPage("must-try-dishes")}
                                 />
 
                             <img
-                                src="/images/Foodie.jpg"
+                                src="/images/Foodie.png"
                                 alt="Foodie events"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("foodie-events")}
                             />
 
                             <img
-                                src="/images/StreetFood.jpg"
+                                src="/images/StreetFood.png"
                                 alt="Street food"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("street-food")}
@@ -77,34 +77,34 @@ function App() {
                         <h3>Transportation</h3>
                         <div className="places-navigation">
                             <img
-                                src="/images/Ferry.jpg"
+                                src="/images/Ferry.png"
                                 alt="Ferry"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("ferry")}
                             />
 
                             <img
-                                    src="/images/Flight.jpg"
+                                    src="/images/Flight.png"
                                     alt="Flight"
                                     className="nav-image"
                                     onClick={() => setCurrentPage("flight-information")}
                                 />
 
                             <img
-                                src="/images/Bus.jpg"
+                                src="/images/Bus.png"
                                 alt="Bus"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("bus")}
                             />
 
                             <img
-                                src="/images/KTM.jpg"
+                                src="/images/KTM.png"
                                 alt="Ktm"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("ktm")}
                             />
                             <img
-                                src="/images/Bike.jpg"
+                                src="/images/Bike.png"
                                 alt="Bike"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("bike")}
@@ -114,21 +114,21 @@ function App() {
                         <h4>Accommodationtion</h4>
                         <div className="places-navigation">
                             <img
-                                src="/images/Hotel.jpg"
+                                src="/images/Hotel.png"
                                 alt="Hotel"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("hotel")}
                             />
 
                             <img
-                                    src="/images/Homestay.jpg"
+                                    src="/images/Homestay.png"
                                     alt="Homestay"
                                     className="nav-image"
                                     onClick={() => setCurrentPage("homestay")}
                                 />
 
                             <img
-                                src="/images/Resort.jpg"
+                                src="/images/Resort.png"
                                 alt="Resort"
                                 className="nav-image"
                                 onClick={() => setCurrentPage("resort")}

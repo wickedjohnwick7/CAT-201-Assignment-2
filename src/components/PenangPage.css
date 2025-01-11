@@ -114,3 +114,13 @@
     height: auto;
     border-radius: 8px;
 }
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff80c0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

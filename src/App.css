@@ -1,3 +1,5 @@
+
+
 /* Carousel Styles */
 .carousel {
   position: relative;
@@ -82,4 +84,18 @@
 
 .nav-image:hover {
   transform: scale(1.05);
+}
+
+/* General styles */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+
+  .foo-right {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
 }

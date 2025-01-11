@@ -1,7 +1,7 @@
 import React from 'react';
 import './PenangPage.css'; // Import CSS for styling
 
-const PenangPage = () => {
+const PenangPage = ({ onBack }) => {
     return (
         <section id="penangPage" className="penang-page-section">
             {/* Header Image */}

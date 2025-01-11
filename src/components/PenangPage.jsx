@@ -44,6 +44,11 @@ const PenangPage = () => {
                     alt="Penang Map"
                 />
             </div>
+            <div>
+                <button onClick={onBack} className="back-button">
+                Back to Home
+            </button>
+            </div>
         </section>
     );
 };

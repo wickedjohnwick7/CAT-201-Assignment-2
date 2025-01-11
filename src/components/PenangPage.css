@@ -1,0 +1,116 @@
+/* PenangPage.css */
+.penang-page-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f5f9fb;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Image */
+.penang-page-header {
+    width: 100%;
+    height: 50vh; /* Adjust height as needed */
+    overflow: hidden;
+}
+
+.penang-header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the container */
+}
+
+/* Title */
+.penang-page-title-container {
+    margin-top: 20px;
+}
+
+.penang-page-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #003366;
+    text-align: center;
+    margin: 0;
+}
+
+/* PenangPage.css */
+.penang-video-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.carousel-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.penang-video-container {
+    max-width: 80%;
+    margin: 0 20px;
+}
+
+.penang-video-container video {
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+/* PenangPage.css */
+
+.penang-page-section {
+    padding: 20px;
+}
+
+.penang-page-header img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.penang-page-title-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.penang-page-title {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.penang-description-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.penang-description {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.penang-page-image-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.penang-page-image {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}

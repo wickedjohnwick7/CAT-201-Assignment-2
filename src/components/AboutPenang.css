@@ -1,0 +1,94 @@
+.about-penang-box {
+    background-color: #f7f7f7; /* Light background color */
+    padding: 40px; /* Add padding inside the box */
+    border-radius: 15px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+    max-width: 800px; /* Optional: Limit the width of the box */
+    margin: 0 auto; /* Center the box horizontally */
+
+}
+
+.about-penang-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.about-penang-title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: px;
+    text-align: center;
+    color: #333;
+
+}
+
+.about-penang-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-penang-left {
+    flex: 1;
+}
+
+.about-penang-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-height: 600px; /* Ensure the image doesn't grow too tall */
+    object-fit: cover; /* Keeps the aspect ratio of the image */
+}
+
+.about-penang-right {
+    flex: 1;
+    text-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-penang-description {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-penang-button {
+    display: inline-block;
+    background-color: #ff80c0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: background-color 0.3s
+    ease;
+    width:200px;
+    margin: 20px auto;
+
+}
+
+.about-penang-button:hover {
+    background-color: #cc7a00;
+}
+
+/* PenangPage.css */
+.penang-video-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.penang-video-container video {
+    max-width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
